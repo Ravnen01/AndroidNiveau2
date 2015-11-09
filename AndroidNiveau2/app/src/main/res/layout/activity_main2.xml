@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lpiem.androidniveau2.Main2Activity"
+    android:id="@+id/dlMainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flMainActivity"/>
+
+    <ListView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_alignParentStart="true"
+        android:choiceMode="singleChoice"
+        android:background="#ffffff"
+        android:id="@+id/lvMenu"
+        />
+
+</android.support.v4.widget.DrawerLayout>
