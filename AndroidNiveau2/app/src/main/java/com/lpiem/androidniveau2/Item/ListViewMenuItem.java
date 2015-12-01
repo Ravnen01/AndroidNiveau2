@@ -14,6 +14,7 @@ public class ListViewMenuItem {
         this.icon = icon;
     }
 
+
     public String getNom() {
         return nom;
     }
